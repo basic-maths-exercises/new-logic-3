@@ -12,6 +12,6 @@ from main import *
 
 class UnitTests(unittest.TestCase) :
     def test_arrayValues(self) :
-       xv = np.loadtxt("values.dat")
+       xv = np.loadtxt("mydata.dat")
        yv = (xv==5)
        assert( vc.check_vars( "yvals", yv ) )
